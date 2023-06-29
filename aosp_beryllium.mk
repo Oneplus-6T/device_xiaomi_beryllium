@@ -14,6 +14,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Pixel Specific Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BUILD_APERTURE_CAMERA := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_beryllium
